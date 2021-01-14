@@ -64,9 +64,15 @@ header{
     .bonus-part{
         grid-template-columns: repeat(2,1fr);
     }
+    .w-h1, .b-center{
+        text-align: center;
+    }
 }
 @media (max-width:668px){
     .bonus-part{
         grid-template-columns: repeat(1,1fr);
+    }
+    .w-h1, .b-center{
+        text-align: center;
     }
 }
