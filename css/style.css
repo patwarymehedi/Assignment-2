@@ -1,0 +1,72 @@
+header{
+    background-color: #FFFBF0;
+}
+.toph1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #FABE4C;
+    width: 100%;
+}
+.navbar-brand img{
+    width: 290px;
+    height: 39.27px;
+    margin-top: 10px;
+}
+.button{
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    border: none;
+}
+.w-h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: rgba(54, 57, 88, 1);
+}
+.c-design{ 
+   border: 0;
+}
+.c-design-footer{
+    border: 0;
+    background-color: white;
+}
+.card-title{
+    color: rgba(54, 57, 88, 1);
+}
+
+.card-img-top{
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+.bonus-part{
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 20px;
+    place-items: center;
+}
+.bonus-part{
+    grid-template-columns: repeat(3,1fr);
+}
+.filled{
+    color: goldenrod;
+    font-size: .8em;
+}
+.unfilled{
+    color: lightgray;
+    font-size: .8em;
+}
+.bonus-info{
+    display: flex;
+    background-color: tomato;
+}
+@media (max-width:992px){
+    .bonus-part{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:668px){
+    .bonus-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
